@@ -1,0 +1,1 @@
+# Tool caches in .planning\n.planning/*/*.db\n.planning/*/*.db-wal\n.planning/*/*.db-shm\n
