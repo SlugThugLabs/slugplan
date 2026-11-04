@@ -1,0 +1,16 @@
+disallowed-macros = [
+    { path = "std::assert", reason = "return an error instead of asserting" },
+    { path = "std::assert_eq", reason = "return an error instead of asserting" },
+    { path = "std::assert_ne", reason = "return an error instead of asserting" },
+    { path = "std::debug_assert", reason = "return an error instead of asserting" },
+    { path = "std::debug_assert_eq", reason = "return an error instead of asserting" },
+    { path = "std::debug_assert_ne", reason = "return an error instead of asserting" },
+]
+disallowed-methods = [
+    { path = "core::option::Option::unwrap_or", reason = "no silent fallbacks" },
+    { path = "core::option::Option::unwrap_or_else", reason = "no silent fallbacks" },
+    { path = "core::option::Option::unwrap_or_default", reason = "no silent fallbacks" },
+    { path = "core::result::Result::unwrap_or", reason = "no silent fallbacks" },
+    { path = "core::result::Result::unwrap_or_else", reason = "no silent fallbacks" },
+    { path = "core::result::Result::unwrap_or_default", reason = "no silent fallbacks" },
+]
