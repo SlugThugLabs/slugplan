@@ -7,7 +7,7 @@ exists it is left alone; slugplan never overwrites or reads an existing file.
 ## Use
 
 ```toml
-slugplan = { git = "https://github.com/SlugThugLabs/slugplan", tag = "v0.1.0" }
+slugplan = { git = "https://github.com/SlugThugLabs/slugplan", tag = "v0.1.1" }
 ```
 
 ```rust
